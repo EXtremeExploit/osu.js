@@ -82,7 +82,7 @@ export declare type APIOptionsScores = {
     u?: string | number;
     m?: number;
     mods?: string | number;
-    type: 'string' | 'id';
+    type?: 'string' | 'id';
     limit?: number
 }
 
@@ -108,8 +108,8 @@ export declare type APIResponseScores = {
 export declare type APIOptionsUserBest = {
     u: string | number;
     m?: number;
-    limit: number;
-    type: 'string' | 'id';
+    limit?: number;
+    type?: 'string' | 'id';
 }
 
 export declare type APIResponseUserBest = {
@@ -132,9 +132,9 @@ export declare type APIResponseUserBest = {
 
 export declare type APIOptionsUserRecent = {
     u: string | number;
-    m: number;
-    limit: number;
-    type: 'string' | 'id';
+    m?: number;
+    limit?: number;
+    type?: 'string' | 'id';
 }
 
 export declare type APIResponseUserRecent = {
