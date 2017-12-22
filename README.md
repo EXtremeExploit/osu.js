@@ -13,14 +13,14 @@ osu.js is a powerful [node.js](https://nodejs.org) module that allows you to int
 - Predictable abstractions
 - 100% coverage of the Discord API
 
-## Installation  
+## Installation
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
 `npm install osu.js --save`
 
 ## Example usage
 ```js
-const osu = require('ous.js');
+const osu = require('osu.js');
 const osuApi = osu.api('some crazy osu!api key')
 
 osuApi.getUser({
