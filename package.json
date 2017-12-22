@@ -1,6 +1,6 @@
 {
   "name": "osu.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A fully functional osu module to work with the osu!api",
   "main": "index.js",
   "scripts": {
