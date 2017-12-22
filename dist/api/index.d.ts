@@ -220,7 +220,7 @@ export declare class APIWrapper {
     /**
      * Makes an HTTP request to an osu! API.
      * 
-     * @param url The URL of the osu!api.
+     * @param url The URL of the osu!Api.
      * @param options Parameters to be passed to the API.
      * @returns A Promise object that will resolve to the result from the API call.
      */
