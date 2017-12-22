@@ -220,7 +220,7 @@ export declare class APIWrapper {
     /**
      * Makes an HTTP request to an osu! API.
      * 
-     * @param url The URL of the osu!Api.
+     * @param url The URL of the osu!API.
      * @param options Parameters to be passed to the API.
      * @returns A Promise object that will resolve to the result from the API call.
      */
@@ -231,14 +231,14 @@ export declare class APIWrapper {
      * Makes a call to the `/get_beatmaps` API.
      * @param options Parameters to provide to the API. See the osu!API documentation for more details.
      */
-    getBeatmaps(options: APIOptionsBeatmaps): Promise<APIResponseBeatmaps>[];
+    getBeatmaps(options: APIOptionsBeatmaps): Promise<APIResponseBeatmaps[]>;
 
 
     /**
      * Makes a call to the `/get_match` API.
      * @param options Parameters to provide to the API. See the osu!API documentation for more details.
      */
-    getMatch(options: APIOptionsMatch): Promise<APIResponseMatch>[];
+    getMatch(options: APIOptionsMatch): Promise<APIResponseMatch[]>;
     
 
     /**
@@ -252,7 +252,7 @@ export declare class APIWrapper {
      * Makes a call to the `/get_scores` API.
      * @param options Parameters to provide to the API. See the osu!API documentation for more details.
      */
-    getScores(options: APIOptionsScores): Promise<APIResponseScores>[];
+    getScores(options: APIOptionsScores): Promise<APIResponseScores[]>;
 
     /**
      * Makes a call to the `/get_user` API.
@@ -264,12 +264,12 @@ export declare class APIWrapper {
      * Makes a call to the `/get_user_best` API.
      * @param options Parameters to provide to the API. See the osu!API documentation for more details.
      */
-    getUserBest(options: APIOptionsUserBest): Promise<APIResponseUserBest>[];
+    getUserBest(options: APIOptionsUserBest): Promise<APIResponseUserBest[]>;
 
     /**
      * Makes a call to the `/get_user_recent` API.
      * @param options Parameters to provide to the API. See the osu!API documentation for more details.
      */
-    getUserRecent(options: APIOptionsUserRecent): Promise<APIResponseUserRecent>[];
+    getUserRecent(options: APIOptionsUserRecent): Promise<APIResponseUserRecent[]>;
 }
 export declare function api(apiKey: string): APIWrapper;
