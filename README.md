@@ -8,13 +8,12 @@
 
 ## About
 osu.js is a powerful [node.js](https://nodejs.org) module that allows you to interact with the
-[osu!API](https://osu.ppy.sh/p/api) very easily.
+[osu!API](https://github.com/ppy/osu-api/wiki) very easily.
 
 - Predictable abstractions
-- 100% coverage of the Discord API
+- 100% coverage of the osu!API
 
 ## Installation
-Ignore any warnings about unmet peer dependencies, as they're all optional.
 
 `npm install osu.js --save`
 
