@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/EXtremeExploit/osu.js/issues"
   },
-  "homepage": "https://github.com/EXtremeExploit/osu.js#readme"
+  "homepage": "https://github.com/EXtremeExploit/osu.js#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
 }

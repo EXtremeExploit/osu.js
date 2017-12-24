@@ -1,1 +1,10 @@
-{"version":3,"file":"errors.js","sourceRoot":"","sources":["../../src/api/errors.ts"],"names":[],"mappings":";;AAGA,cAAsB,SAAQ,KAAK;CAClC;AADD,4BACC"}
+{
+   "version":3,
+   "file":"errors.js",
+   "sourceRoot":"",
+   "sources":[
+      "../../src/api/errors.ts"
+   ],
+   "names":[],
+   "mappings":";;AAGA,cAAsB,SAAQ,KAAK;CAClC;AADD,4BACC"
+}
