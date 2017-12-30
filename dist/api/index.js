@@ -53,4 +53,3 @@ function api(apiKey) {
     return new APIWrapper(apiKey);
 }
 exports.api = api;
-//# sourceMappingURL=index.js.map
