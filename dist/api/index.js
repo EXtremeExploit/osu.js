@@ -19,6 +19,8 @@ class APIWrapper {
         };
         return new Promise((resolve) => {
             request_1.get(payload, (error, response, body) => {
+                if(body.error)
+                    throw new Error(body.error)
                 if (error)
                     throw new errors_1.APIError(`Failed to call API ${url}. Error: ${error.toString()}`);
                 const result = JSON.parse(body);
