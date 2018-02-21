@@ -2,7 +2,6 @@
   <p>
     <a href="https://www.npmjs.com/package/osu.js"><img src="https://img.shields.io/npm/v/osu.js.svg" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/osu.js"><img src="https://img.shields.io/npm/dt/osu.js.svg" alt="NPM downloads" /></a>
-    <a href="https://travis-ci.org/hydrabolt/osu.js"><img src="https://travis-ci.org/hydrabolt/osu.js.svg" alt="Build status" /></a>
   </p>
 </div>
 
@@ -29,7 +28,4 @@ osuApi.getUser({
 });
 ```
 ## Help
-If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle
-nudge in the right direction, please don't hesitate to join to the [discord server](https://discord.gg/jG23JTz)!.
-
-You can find the osu.js channels in the osu.js category
+If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to post an issue!
