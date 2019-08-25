@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <p>
     <a href="https://www.npmjs.com/package/osu.js"><img src="https://img.shields.io/npm/v/osu.js.svg" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/osu.js"><img src="https://img.shields.io/npm/dt/osu.js.svg" alt="NPM downloads" /></a>
